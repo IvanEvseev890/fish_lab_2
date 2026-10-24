@@ -3,6 +3,7 @@ import pandas as pd
 import numpy as np
 import json
 import os
+import joblib
 import mlflow
 import mlflow.sklearn
 import matplotlib.pyplot as plt
@@ -17,7 +18,7 @@ from sklearn.model_selection import GridSearchCV, cross_val_score
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 from config import DATA_PATH, TARGET_COL, NUMERIC_COLS, CATEGORICAL_COLS, SPLIT_INDICES_PATH
 
-# --- НАСТРОЙКА MLFLOW (пишем напрямую в SQLite базу) ---
+# Настройка MLflow (пишем напрямую в SQLite базу)
 mlflow.set_tracking_uri("sqlite:///mlflow.db")
 mlflow.set_experiment("Fish_Weight_Lab2")
 
@@ -139,5 +140,10 @@ if __name__ == "__main__":
     evaluate_and_log("E4_HGB_Vproxy_Replace", e4, X_train_v, y_train, X_test_v, y_test, 
                      params={"max_iter": 100, "max_depth": 5, "learning_rate": 0.1, "features": "Length1, Length2, Vproxy"}, 
                      save_model=True)
+
+    # Сохранение лучшей модели для evaluate.py
+    os.makedirs("models", exist_ok=True)
+    joblib.dump(e4, "models/model.joblib")
+    print("Модель сохранена в models/model.joblib")
 
     print("\nВсе эксперименты завершены. Запустите 'mlflow server --backend-store-uri sqlite:///mlflow.db' для просмотра.")
