@@ -1,0 +1,10 @@
+artifact_location: file:C:/Users/Admin/Desktop/лабаИИ2/fish_weight_prediction_machine_learning/mlruns/987309945843274928/models/m-96cad722f4a74811acd3e4c24a74375a/artifacts
+creation_timestamp: 1792864932141
+experiment_id: '987309945843274928'
+last_updated_timestamp: 1792864932213
+model_id: m-96cad722f4a74811acd3e4c24a74375a
+model_type: null
+name: model
+source_run_id: 70607b85683640298f78509a7347e16e
+status: 3
+status_message: null

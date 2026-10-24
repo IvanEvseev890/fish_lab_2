@@ -1,0 +1,23 @@
+artifact_path: "file:C:/Users/Admin/Desktop/\u043B\u0430\u0431\u0430\u0418\u04182/fish_weight_prediction_machine_learning/mlruns/987309945843274928/models/m-b2cd150ed6154ec599ca4ea909cdb8c1/artifacts"
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.0
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: pickle
+    sklearn_version: 1.9.1
+    skops_trusted_types: null
+mlflow_version: 3.17.2
+model_id: m-b2cd150ed6154ec599ca4ea909cdb8c1
+model_size_bytes: 2658
+model_uuid: m-b2cd150ed6154ec599ca4ea909cdb8c1
+prompts: null
+run_id: ed85e8ba53774d1db3fbde3a54d6feb4
+utc_time_created: '2026-10-24 18:02:58.007126'
