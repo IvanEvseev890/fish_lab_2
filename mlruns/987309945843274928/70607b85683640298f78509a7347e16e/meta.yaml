@@ -1,0 +1,14 @@
+artifact_uri: file:C:/Users/Admin/Desktop/лабаИИ2/fish_weight_prediction_machine_learning/mlruns/987309945843274928/70607b85683640298f78509a7347e16e/artifacts
+end_time: 1792864932220
+entry_point_name: ''
+experiment_id: '987309945843274928'
+lifecycle_stage: active
+run_id: 70607b85683640298f78509a7347e16e
+run_name: E2_Ridge
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1792864931895
+status: 4
+tags: []
+user_id: Admin

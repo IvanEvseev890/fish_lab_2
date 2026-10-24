@@ -1,0 +1,14 @@
+artifact_uri: file:C:/Users/Admin/Desktop/лабаИИ2/fish_weight_prediction_machine_learning/mlruns/987309945843274928/ed85e8ba53774d1db3fbde3a54d6feb4/artifacts
+end_time: 1792864981924
+entry_point_name: ''
+experiment_id: '987309945843274928'
+lifecycle_stage: active
+run_id: ed85e8ba53774d1db3fbde3a54d6feb4
+run_name: E0_Dummy
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1792864977836
+status: 3
+tags: []
+user_id: Admin

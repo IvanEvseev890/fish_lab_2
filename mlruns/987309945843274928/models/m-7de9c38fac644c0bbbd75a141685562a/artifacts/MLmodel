@@ -1,0 +1,24 @@
+artifact_path: "file:C:/Users/Admin/Desktop/\u043B\u0430\u0431\u0430\u0418\u04182/fish_weight_prediction_machine_learning/mlruns/987309945843274928/models/m-7de9c38fac644c0bbbd75a141685562a/artifacts"
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.13.0
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types:
+    - numpy.dtype
+mlflow_version: 3.17.2
+model_id: m-7de9c38fac644c0bbbd75a141685562a
+model_size_bytes: 195589
+model_uuid: m-7de9c38fac644c0bbbd75a141685562a
+prompts: null
+run_id: e26b3e9e627f461ebcbb29720840a65c
+utc_time_created: '2026-10-24 18:02:08.858021'

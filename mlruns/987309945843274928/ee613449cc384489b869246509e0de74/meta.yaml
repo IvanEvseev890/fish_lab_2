@@ -1,0 +1,14 @@
+artifact_uri: file:C:/Users/Admin/Desktop/лабаИИ2/fish_weight_prediction_machine_learning/mlruns/987309945843274928/ee613449cc384489b869246509e0de74/artifacts
+end_time: 1792864991138
+entry_point_name: ''
+experiment_id: '987309945843274928'
+lifecycle_stage: active
+run_id: ee613449cc384489b869246509e0de74
+run_name: E4_HGB_Vproxy_Replace
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1792864988118
+status: 3
+tags: []
+user_id: Admin
